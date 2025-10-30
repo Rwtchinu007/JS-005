@@ -36,3 +36,45 @@ for (i = 0; i <= 20; i++) {
     continue;
   }
   console.log("count is " + i);}
+
+  // practice problems
+  // printing numbers from 1 to 10
+//  for (let i=1;i<=10;i++){
+//     console.log(i);
+//   }
+
+// printing numbers from 10 to 1
+// let num = 10;
+// while (num >= 1) {
+//   console.log(num);
+//   num--;
+// }
+
+// printing odd numbers from 1 to 20
+// let num = 1;
+// while (num <= 20) {
+//   if (num % 2 !== 0) {
+//     console.log(num);
+//   } 
+//    num++;
+// }
+
+// printing the table of 5
+// for(let i = 1;i<=10;i++){
+//     console.log("5 x " + i + " = " + (5*i)); 
+// }
+
+// sum of numbers from 1 to 100
+// let sum = 0;
+// for(let i=1;i<=100;i++){
+//     sum += i;
+// }
+// console.log("Sum of numbers from 1 to 100 is " + sum);
+
+// get input from user and check if it is even or odd
+// let num = prompt("Enter a number:");
+// if (num % 2 === 0) {
+//   console.log(num + " is an even number.");
+// } else {
+//   console.log(num + " is an odd number.");
+// }
