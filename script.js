@@ -23,11 +23,11 @@ do {
 
 // break and continue statements
 for (i = 0; i <= 200; i++) {
-    if (i === 69) {
-        console.log("loop stopped at " + i);
-        break;
-    }
-    console.log("count is " + i);
+  if (i === 69) {
+    console.log("loop stopped at " + i);
+    break;
+  }
+  console.log("count is " + i);
 }
 
 for (i = 0; i <= 20; i++) {
@@ -35,10 +35,11 @@ for (i = 0; i <= 20; i++) {
     console.log("skipping number " + i);
     continue;
   }
-  console.log("count is " + i);}
+  console.log("count is " + i);
+}
 
-  // practice problems
-  // printing numbers from 1 to 10
+// practice problems
+// printing numbers from 1 to 10
 //  for (let i=1;i<=10;i++){
 //     console.log(i);
 //   }
@@ -55,13 +56,41 @@ for (i = 0; i <= 20; i++) {
 // while (num <= 20) {
 //   if (num % 2 !== 0) {
 //     console.log(num);
-//   } 
+//   }
 //    num++;
 // }
 
+// asking user from a number and check if its positive or negative
+// let num = +prompt("Enter a number:");
+// if (num >= 0) {
+//   console.log(`${num} is a positive number.`);
+// } else {
+//   console.log(`${num} is a negative number.`);
+// }
+
+// checking age eligibility for voting
+let age = prompt("Enter your age:");
+if (age === null) {
+  console.error("User cancelled the prompt.");
+} else {
+  if (age.trim() === "") {
+    console.error("No age entered.");
+  }
+  age = Number(age.trim());
+  if (isNaN(age)) {
+    console.error("Invalid character entered.");
+  } else {
+    if (age >= 18) {
+      console.log("You are eligible to vote.");
+    } else {
+      console.log("You are not eligible to vote.");
+    }
+  }
+}
+
 // printing the table of 5
 // for(let i = 1;i<=10;i++){
-//     console.log("5 x " + i + " = " + (5*i)); 
+//     console.log("5 x " + i + " = " + (5*i));
 // }
 
 // sum of numbers from 1 to 100
